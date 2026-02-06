@@ -25,4 +25,4 @@ Search is becoming *agent-mediated*. This template provides a clean “alternate
 5) Share your Pages URL
 
 ## Full guide
-Gumroad: https://chanwoo522.gumroad.com/l/ai-readable-commerce
+Gumroad: https://chanwoo522.gumroad.com/l/ai-readable-commerce?utm_source=github&utm_medium=repo&utm_campaign=starter
