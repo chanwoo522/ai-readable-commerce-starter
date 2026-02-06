@@ -8,7 +8,7 @@ A tiny reference implementation:
 
 ## Demo
 Enable GitHub Pages and your demo will be available at:
-`https://https://chanwoo522.github.io/ai-readable-commerce-starter/`
+`https://chanwoo522.github.io/ai-readable-commerce-starter/`
 
 ## Why this exists
 Search is becoming *agent-mediated*. This template provides a clean “alternate representation” that agents can parse reliably — without cloaking or fragile bot redirects.
