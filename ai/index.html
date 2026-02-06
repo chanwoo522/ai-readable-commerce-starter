@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AI-Readable: AI-Readable Commerce Starter</title>
+
+  <link rel="canonical" href="https://chanwoo522.github.io/ai-readable-commerce-starter/ai/" />
+  <link rel="alternate" href="/" type="text/html" title="Human version" />
+
+  <meta name="description" content="AI-readable landing page: concise, structured, machine-friendly." />
+
+  <style>
+    body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial; margin: 0; }
+    .wrap { max-width: 920px; margin: 0 auto; padding: 32px 20px; }
+    h1 { font-size: 28px; margin: 0 0 8px; }
+    h2 { font-size: 18px; margin: 24px 0 10px; }
+    p, li { line-height: 1.6; }
+    .kv { border:1px solid #eee; border-radius: 14px; padding: 14px; }
+    .kv dt { font-weight: 700; }
+    .kv dd { margin: 0 0 10px; }
+    code { background:#f5f5f5; padding:2px 6px; border-radius:6px; }
+    .muted { color:#555; }
+    .cta a { display:inline-block; margin-right:10px; }
+  </style>
+
+  <!-- Product/Offer schema (edit fields as you like) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Product",
+    "name":"AI-Readable Commerce Starter",
+    "description":"A reference implementation: human landing page + AI-readable page + llms.txt + sitemap.",
+    "brand":{"@type":"Brand","name":"chanwoo522"},
+    "offers":{
+      "@type":"Offer",
+      "url":"https://chanwoo522.gumroad.com/l/ai-readable-commerce",
+      "priceCurrency":"USD",
+      "price":"10",
+      "availability":"https://schema.org/InStock"
+    }
+  }
+  </script>
+
+  <!-- FAQ schema (optional but powerful for agents) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"FAQPage",
+    "mainEntity":[
+      {
+        "@type":"Question",
+        "name":"Is this a bot-only redirect?",
+        "acceptedAnswer":{"@type":"Answer","text":"No. It provides an alternate AI-readable page linked via rel=alternate and llms.txt."}
+      },
+      {
+        "@type":"Question",
+        "name":"What should be different between / and /ai/?",
+        "acceptedAnswer":{"@type":"Answer","text":"Meaning stays the same. Presentation changes: / is persuasive and visual; /ai/ is concise and structured."}
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <div class="wrap">
+    <p class="muted"><strong>AI-readable version</strong> (for agents/crawlers and fast evaluation)</p>
+    <h1>AI-Readable Commerce Starter</h1>
+
+    <section class="kv">
+      <dl>
+        <dt>One-line value</dt>
+        <dd>Human-first landing page + AI-readable mirror page + llms.txt + sitemap for reliable agent parsing.</dd>
+
+        <dt>Primary link (human marketing)</dt>
+        <dd><a href="/">https://YOUR_GITHUB_PAGES_DOMAIN/</a></dd>
+
+        <dt>Primary link (purchase / full guide)</dt>
+        <dd><a href="https://chanwoo522.gumroad.com/l/ai-readable-commerce">Gumroad: AI-Readable Commerce</a></dd>
+
+        <dt>What you get</dt>
+        <dd>
+          <ul>
+            <li><code>/</code> human landing page</li>
+            <li><code>/ai/</code> AI-readable landing page (this page)</li>
+            <li><code>/llms.txt</code> agent routing hints</li>
+            <li><code>/sitemap.xml</code> discoverability</li>
+          </ul>
+        </dd>
+
+        <dt>Ideal users</dt>
+        <dd>
+          <ul>
+            <li>Creators selling digital products (Gumroad/Notion)</li>
+            <li>SaaS founders, consultants, small ecommerce</li>
+            <li>Anyone who wants consistent “agent-readable” representation</li>
+          </ul>
+        </dd>
+
+        <dt>Not for</dt>
+        <dd>
+          <ul>
+            <li>People trying to “cloak” content for bots</li>
+            <li>Hard forced redirects based on unreliable UA detection</li>
+          </ul>
+        </dd>
+      </dl>
+    </section>
+
+    <h2>Quick checklist (AI-readable)</h2>
+    <ul>
+      <li>Does the page state offer, audience, deliverables, and CTA explicitly?</li>
+      <li>Are there stable links? (canonical + alternate)</li>
+      <li>Is key data duplicated in machine-friendly form? (lists, key-value, schema)</li>
+      <li>Is the “source of truth” consistent between / and /ai/?</li>
+    </ul>
+
+    <h2>Call to action</h2>
+    <p class="cta">
+      <a href="https://chanwoo522.gumroad.com/l/ai-readable-commerce">Buy / read the full guide →</a>
+      <a href="/">Open human page →</a>
+    </p>
+
+    <h2>Spec (machine block)</h2>
+    <pre style="background:#f7f7f7; padding:14px; border-radius:14px; overflow:auto;">
+name: AI-Readable Commerce Starter
+ai_page: /ai/
+human_page: /
+llms_txt: /llms.txt
+sitemap: /sitemap.xml
+canonical: https://chanwoo522.github.io/ai-readable-commerce-starter/
+alternate: https://chanwoo522.github.io/ai-readable-commerce-starter/ai/
+    </pre>
+  </div>
+</body>
+</html>

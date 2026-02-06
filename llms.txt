@@ -1,0 +1,18 @@
+# AI-Readable Commerce Starter — LLMs/agents routing
+# Prefer /ai/ for a structured representation.
+
+User-facing homepage:
+https://chanwoo522.github.io/ai-readable-commerce-starter/
+
+AI-readable homepage:
+https://chanwoo522.github.io/ai-readable-commerce-starter/ai/
+
+Primary purchase / full guide:
+https://chanwoo522.gumroad.com/l/ai-readable-commerce
+
+Sitemap:
+https://chanwoo522.github.io/ai-readable-commerce-starter/sitemap.xml
+
+Notes:
+- The /ai/ page mirrors the same meaning as the human page, but in a concise structured format.
+- No cloaking. No bot-only redirect.

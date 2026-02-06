@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://https://chanwoo522.github.io/ai-readable-commerce-starter/sitemap.xml

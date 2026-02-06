@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AI-Readable Commerce Starter</title>
+
+  <!-- Canonical + Alternate -->
+  <link rel="canonical" href="https://chanwoo522.github.io/ai-readable-commerce-starter/" />
+  <link rel="alternate" href="/ai/" type="text/html" title="AI-readable version" />
+
+  <!-- Basic SEO -->
+  <meta name="description" content="Human-friendly landing page + AI-readable version + llms.txt. Fork, edit, ship." />
+
+  <!-- Open Graph (simple placeholder) -->
+  <meta property="og:title" content="AI-Readable Commerce Starter" />
+  <meta property="og:description" content="A human page + an AI-readable page that agents can parse reliably." />
+  <meta property="og:type" content="website" />
+
+  <style>
+    body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial; margin: 0; }
+    .wrap { max-width: 920px; margin: 0 auto; padding: 48px 20px; }
+    .badge { display:inline-block; padding:6px 10px; border:1px solid #ddd; border-radius:999px; font-size:12px; }
+    h1 { font-size: 42px; margin: 14px 0 8px; }
+    p { line-height: 1.6; color: #222; }
+    .grid { display:grid; grid-template-columns: 1fr; gap: 14px; margin-top: 22px; }
+    .card { border:1px solid #eee; border-radius: 16px; padding: 18px; background:#fff; }
+    .cta { display:flex; gap:10px; flex-wrap:wrap; margin-top: 18px; }
+    .btn { padding:12px 14px; border-radius: 12px; border:1px solid #111; text-decoration:none; color:#111; font-weight:600; }
+    .btn.primary { background:#111; color:#fff; }
+    .muted { color:#666; font-size: 14px; }
+    code { background:#f5f5f5; padding:2px 6px; border-radius:6px; }
+  </style>
+
+  <!-- Optional: structured data for the overall site -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebSite",
+    "name":"AI-Readable Commerce Starter",
+    "url":"https://chanwoo522.github.io/ai-readable-commerce-starter/",
+    "potentialAction":{
+      "@type":"SearchAction",
+      "target":"https://chanwoo522.github.io/ai-readable-commerce-starter/?q={search_term_string}",
+      "query-input":"required name=search_term_string"
+    }
+  }
+  </script>
+</head>
+
+<body>
+  <div class="wrap">
+    <span class="badge">Human page</span>
+    <h1>Sell to humans. Be readable to AI.</h1>
+    <p>
+      This is a starter template that pairs a normal landing page with an <strong>AI-readable</strong> page
+      (<code>/ai/</code>), plus <code>llms.txt</code>, <code>sitemap.xml</code>, and clean linking.
+    </p>
+
+    <div class="cta">
+      <a class="btn primary" href="/ai/">Open AI-readable version →</a>
+      <a class="btn" href="https://chanwoo522.gumroad.com/l/ai-readable-commerce">Read the full guide on Gumroad →</a>
+      <a class="btn" href="https://github.com/chanwoo522">Author GitHub →</a>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h2 style="margin:0 0 6px;">What you get</h2>
+        <ul style="margin:0; padding-left:18px; line-height:1.7;">
+          <li>Human-first landing page (<code>/</code>)</li>
+          <li>AI-readable landing page (<code>/ai/</code>) with explicit structure</li>
+          <li><code>llms.txt</code> that points agents to the right URL</li>
+          <li><code>rel=alternate</code> + canonical links + sitemap</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2 style="margin:0 0 6px;">How to use</h2>
+        <ol style="margin:0; padding-left:18px; line-height:1.7;">
+          <li>Fork this repo</li>
+          <li>Edit copy on <code>index.html</code> and <code>ai/index.html</code></li>
+          <li>Enable GitHub Pages</li>
+          <li>Share your GitHub Pages URL</li>
+        </ol>
+        <p class="muted" style="margin:10px 0 0;">
+          Tip: keep both pages consistent in meaning; only change presentation.
+        </p>
+      </div>
+    </div>
+
+    <p class="muted" style="margin-top:28px;">
+      AI-readable is not “redirecting bots”. It’s providing a reliable alternate representation that agents can parse.
+    </p>
+  </div>
+</body>
+</html>
